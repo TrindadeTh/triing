@@ -1,0 +1,14 @@
+<div class="type-span"> Configuração do Contador On-Line
+</div>
+
+<div>
+    <label for="input-index"> Contador Atual: </label>
+    <input [(ngModel)]="this.contadorFirebase.index" disabled id="input-index">
+    <br>
+    
+    <label for="input-new-index"> Alterar Contador: </label>
+    <input [(ngModel)]="this.indexProvisorio" id="input-new-index" autofocus>
+    <button (click)="updateIndex()" > Alterar </button>
+    <button (click)="createIndex()" > Criar Novo </button>
+
+</div>

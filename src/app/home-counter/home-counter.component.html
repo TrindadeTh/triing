@@ -1,0 +1,7 @@
+<div class="type-span"> Tipo de Contador: {{dataService.contadorAtual.getContadorType()}}
+</div>
+<div style="text-align: center;">
+  <h1>{{dataService.contadorAtual.contador}}</h1>
+  <button style="margin: 10px" (click)="dataService.contadorAtual.increment()"> Increment</button>
+  <button style="margin: 10px" (click)="dataService.contadorAtual.decrement()"> Decrement</button>
+</div>

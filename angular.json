@@ -117,8 +117,16 @@
               "devServerTarget": "simple-counter:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "simple-counter"
+    }
+  },
+  "defaultProject": "simple-counter",
+  "cli": {
+    "analytics": false
+  }
 }

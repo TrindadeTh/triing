@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "songmatch-8ae96": {
+      "hosting": {
+        "simple-counter": [
+          "songmatch-8ae96"
+        ]
+      }
+    }
+  }
+}

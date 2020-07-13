@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "simple-counter",
+      "public": "dist/simple-counter",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
