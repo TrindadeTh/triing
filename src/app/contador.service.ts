@@ -20,7 +20,7 @@ export class ContadorService extends ContadorAbstract{
 
   increment(): void {
     this.contador++;
-    console.log('Editado no servidor');
+    console.log('Agora pelo local');
   }
 
   decrement(): void {
