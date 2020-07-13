@@ -20,6 +20,7 @@ export class ContadorService extends ContadorAbstract{
 
   increment(): void {
     this.contador++;
+    console.log('Editado no servidor');
   }
 
   decrement(): void {
