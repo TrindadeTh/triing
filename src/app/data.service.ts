@@ -5,6 +5,6 @@ import { ContadorAbstract } from './utils/ContadorAbstract';
   providedIn: 'root'
 })
 export class DataService {
-  contadorAtual: ContadorAbstract
+  contadorAtual: ContadorAbstract // Contador genérico global
   constructor() { }
 }

@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent  {
   title = 'simple-counter';
-  contadorList: {[key: string]: ContadorAbstract} = {
+  contadorList: {[key: string]: ContadorAbstract} = { // Tipos de contadores disponíveis
     'Local': this.contador,
     'Firebase': this.contadorFirebase
   };
